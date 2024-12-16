@@ -28,9 +28,9 @@
     (if (null (cdr unsorted)) 	; якщо список має 1 або 0 елементів
               unsorted
               (let* ((first (car unsorted))
-		       (second (cadr unsorted))
-		       (first-key (funcall key first))
-                       (second-key (funcall key second)))
+                     (second (cadr unsorted))
+                     (first-key (funcall key first))
+                     (second-key (funcall key second)))
                 (if (funcall test first-key second-key)  	; якщо перший елемент більший рівний другому 
                     (cons second (exchange-func (cons first (cddr unsorted)))) ; міняємо місцями
                     (cons first (exchange-func (cdr unsorted))))))) ; якщо не треба міняти, просто продовжуємо
