@@ -36,7 +36,10 @@
 
 ### Завдання за варіантом №6 (18)
 <p align="center">
-    <img src="images/lab_5_variant.png" alt="lab_5_variant">
+    <img src="images/lab_51_variant.png" alt="lab_51_variant">
+</p>
+<p align="center">
+    <img src="images/lab_52_variant.png" alt="lab_52_variant">
 </p>
 
 ### Лістинг реалізації завдання
